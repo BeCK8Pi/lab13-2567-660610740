@@ -22,4 +22,13 @@ export interface movieIdPageParams {
 
 export interface footerProps {
   // define props list here
+  year:string;
+  fullName:string;
+  studentId:string;
+}
+
+export interface searchParam {
+  params:{
+    searchInput:string;
+  };
 }
